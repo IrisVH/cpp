@@ -5,20 +5,20 @@ using namespace std;
 
 int main(int argc, char** argv) {
 	//Datos de entrada 
-	int numerosecreto=7;
-	int numero=0;
-	
-	cout<<"Ingrese un numero:";
-	cin>>numero;
+	int a=0;
+	int b=0;
+	int resultado=0;
+	cout<<"Ingrese el valor de a:";cin>>a;
 	cout<<endl;
-
-	if (numero==7){
-	cout<<"Adivinastes el numero secreto";
-	}
-    else {
-		cout<<"No adivinastes";
-		}
-
-
+	cout<<"Ingrese el valor de b:";cin>>b;
+	
+	//proceso
+	resultado = a+b;
+	
+	//salida
+	cout<<endl;
+	cout<<"La suma de a+b es:"<<resultado;
+	
+	
 	return 0;
 }
