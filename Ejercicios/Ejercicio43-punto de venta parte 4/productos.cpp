@@ -17,7 +17,9 @@ void productos(int opcion)
      cout<<"1.Capuccino"<<endl;
      cout<<"2.Expresso"<<endl;
      cin>>opcionProducto;
-      switch (opcionProducto)
+      
+        
+            switch (opcionProducto)
             {
             case 1:
                 agregarProducto("Capuchino",1,40);
@@ -27,10 +29,18 @@ void productos(int opcion)
                 agregarProducto("Expresso",1,30);
                 break;
             default:
-            cout<<"Opcion no valida";
+               {
+                cout<<"Opcion no valida";
+                return;
                 break;
+                }
             }
-         break;
+        
+        cout<<endl;
+        cout<<"Producto agregado"<<endl<<endl;
+        system("pause");
+        break;
+     
     }
     case 2:
     {

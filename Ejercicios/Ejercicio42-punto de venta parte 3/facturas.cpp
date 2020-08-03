@@ -4,10 +4,10 @@
 using namespace std;
 
 double subtotal;
-string listaProductos;
+string listarProductos;
 
 void agregarProducto(string descripcion,int cantidad, double precio)
 {
-    listarProductos=listaProductos+descripcion+'/n'
+    listarProductos=listarProductos + descripcion + '\n';
     subtotal=subtotal+(cantidad*precio);
 }
