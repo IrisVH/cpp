@@ -41,7 +41,7 @@ void menu()
         }
         
         
-		productos(opcion);
+		
 	}
 	
 }
