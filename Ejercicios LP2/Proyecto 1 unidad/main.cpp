@@ -1,6 +1,5 @@
 #include <iostream>
-#include "startShip.h"
-#include "snake.h"
+ 
 #include "menu.h"
 
 

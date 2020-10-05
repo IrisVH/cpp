@@ -15,10 +15,10 @@
        cout<<"MENU DE JUEGOS"<<endl;
        cout<<"***********************"<<endl;
        cout<<"Seleccione un juego"<<endl;
-       
+
        cout<<"1-starShip"<<endl;
        cout<<"2-snake"<<endl;
-       cout<<"3-salir"<<endl;
+       
        
 
        cout<<endl;
@@ -40,14 +40,7 @@
                    system("pause");
                    break;
            
-           case 3:
-                  
-                  salir=true;
-                  system("pause");
-                  break;
-                
-
-     
+           
           default:
                   
                   system("pause");

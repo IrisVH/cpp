@@ -208,6 +208,7 @@ int snake()
 		system("cls");
 	}
 	
+	
 	system("pause>NULL");
 	return 0;
 }
